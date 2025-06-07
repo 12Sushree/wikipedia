@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.topbar {
+    display: flex;
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    border-bottom: 0.2rem solid #333;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.topbar input {
+    padding: 0.5rem 1rem;
+    background-color: #2a2a2a;
+    border: 0.2px solid #444;
+    color: white;
+    width: 20rem;
+}
+
+.topbar button {
+    padding: 0.5rem 1rem;
+    background-color: #2a2a2a;
+    border: 0.1rem solid #444;
+    color: white;
+    width: 5rem;
+}
+
+.topbar button:hover {
+    background-color: rgb(65, 58, 58);
+}
+
+.hmenu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hmenu a {
+    color: #6793eb;
+    text-decoration: none;
+}
+
+.hmenu a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sidebar {
+    width: 10rem;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-right: 0.2rem solid #333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin: 1rem 0;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebar a {
+  color: #6793eb;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+    flex: 3;
+    padding: 0 1rem;
+}
+
+.content h1, .content h2 {
+    color: white;
+}
+
+.infobox {
+    width: 15rem;
+    background-color: #1a1a1a;
+    border: 0.2rem solid #333;
+    padding: 1rem;
+    text-align: center;
+    height: 30rem;
+}
+
+.infobox img {
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.infobox h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.wiki-footer {
+  font-size: 1rem;
+  color: #cacfd3;
+  padding: 1rem;
+  text-align: center;
+  border-top: 0.2rem solid #333;
+  background-color: #1f1f1f;
+}
+
+.wiki-footer a {
+  color: #6793eb;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.wiki-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
